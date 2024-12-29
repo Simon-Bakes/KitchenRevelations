@@ -2,18 +2,21 @@
 A website to store and find recipes.
 
 # Website Ideas
-User management
--guest (limited options)
--login & signup
+- **User management**
+  - Guest (limited options)
+  - Login & signup
 
-Subscription
--premium subscription
+- **Subscription**
+  - Premium subscription
 
-Recipe management
--Editing, adding, removing recipes made by you
+- **Recipe management**
+  - Editing, adding, removing recipes made by you
 
-Filtering
--Filter by nationality, ingredients, type, difficulty
+- **Filtering**
+  - Filter by nationality
+  - Filter by ingredients
+  - Filter by type
+  - Filter by difficulty
 
-Rating
--Allow for rating of dishes
+- **Rating**
+  - Allow for rating of dishes
