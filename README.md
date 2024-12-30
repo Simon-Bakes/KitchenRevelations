@@ -2,21 +2,49 @@
 A website to store and find recipes.
 
 # Website Ideas
-- **User management**
-  - Guest (limited options)
-  - Login & signup
+- **1. User management**
+  - Guest (limited options) 
+  - User
+    - Add, edit, remove recipes
+    - Profile customization
+    - Public and private recipes
 
-- **Subscription**
-  - Premium subscription
+- **2. Subscription**
+  - Ad-free
+  - Save recipes
+  - Priority access to new features.
 
-- **Recipe management**
+- **3. Recipe management**
   - Editing, adding, removing recipes made by you
 
-- **Filtering**
+- **4. Filtering**
   - Filter by nationality
   - Filter by ingredients
-  - Filter by type
+  - Filter by type (Breakfast, etc)
+  - Filter by holiday (Christmas, etc)
   - Filter by difficulty
+  - Filter by dietary needs/preferences
 
-- **Rating**
-  - Allow for rating of dishes
+- **5. Rating & Reviews**
+  - Allow for rating of dishes scale of 1-5 stars
+  - Leave text reviews or comments.
+
+ - **6. Design & UX**
+  - Responsive
+  - Clean, minimistic design
+  - User friendly
+
+- **7. Techonlogies**
+  - Frontend (HTML, CSS, Javascript)
+  - Backend (Django)
+  - Database (MySQL)
+
+ - **8. Budget**
+  - 10000 USD Budget
+  - Hosting costs
+
+- **9. Future Additions**
+  - Mobile app
+  - Multilingual support
+
+
