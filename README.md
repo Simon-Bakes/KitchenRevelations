@@ -41,7 +41,7 @@ A website to store and find recipes.
 
  - **8. Budget**
    - 10000 USD Budget
-  -  Hosting costs
+   - Hosting costs
 
 - **9. Future Additions**
   - Mobile app
