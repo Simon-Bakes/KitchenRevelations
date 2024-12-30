@@ -34,6 +34,10 @@ A website to store and find recipes.
   - Clean, minimistic design
   - User friendly
 
+- **5. Rating & Reviews**
+  - Allow for rating of dishes scale of 1-5 stars
+  - Leave text reviews or comments.
+
 - **7. Techonlogies**
   - Frontend (HTML, CSS, Javascript)
   - Backend (Django)
