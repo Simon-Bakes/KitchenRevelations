@@ -40,6 +40,7 @@ A website to store and find recipes.
   - Database (MySQL)
 
  - **8. Budget**
+ - 
   - 10000 USD Budget
   - Hosting costs
 
