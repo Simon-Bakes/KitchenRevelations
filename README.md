@@ -29,14 +29,9 @@ A website to store and find recipes.
   - Allow for rating of dishes scale of 1-5 stars
   - Leave text reviews or comments.
 
- - **6. Design & UX**
-  - Responsive
-  - Clean, minimistic design
-  - User friendly
-
 - **6. Design & UX**
   - Responsive
-  - CLean, minimistic design
+  - Clean, minimistic design
   - User friendly
 
 - **7. Techonlogies**
