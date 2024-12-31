@@ -43,7 +43,12 @@ A website to store and find recipes.
    - 10000 USD Budget
    - Hosting costs
 
-- **9. Future Additions**
+- **9. Timeline**
+  - Week 1 (Login page, main page, payment page)
+  - Week 2 (Optimization)
+  - Week 3 (Deadline)
+
+- **10. Future Expansions**
   - Mobile app
   - Multilingual support
 
