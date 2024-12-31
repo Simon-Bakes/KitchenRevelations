@@ -1,0 +1,134 @@
+.material-symbols-outlined {
+    user-select: none; 
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+}
+
+#loginMain {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/loginPage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginDiv {
+    width: 500px;
+    height: 600px;
+    border-radius: 1vmax;
+    background-color: var(--secondary-color);
+}
+
+#loginHeader {
+    width: 100%;
+    height: 10%;
+    background-color: var(--primary-color);
+    border-radius: 1vmax 1vmax 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#loginForm {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8em;
+}
+
+#loginUser,
+#loginPassword {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+#loginUser label,
+#loginPassword label {
+    margin-bottom: 8px;
+}
+
+#username,
+#password {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-right: 40px;
+}
+
+#loginPassword {
+    position: relative;
+}
+
+#showPasswordLabel {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #555;
+}
+
+#showPasswordLabel:hover {
+    color: #000;
+}
+
+#loginBtn,
+#loginRegister {
+    width: 100%;
+    margin: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 1.6em;
+}
+
+#login {
+    width: 60%;
+    height: 100%;
+    padding: 10px 0;
+    border-radius: 1vmax;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
+#login:hover {
+    scale: 1.1;
+    background-color: var(--primary-color-light);
+    color: var(--secondary-color);
+}
+
+#login:active {
+    scale: 0.9;
+    background-color: var(--primary-color);
+}
+
+#register {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}

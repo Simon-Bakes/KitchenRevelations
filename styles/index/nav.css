@@ -1,0 +1,27 @@
+nav {
+    background-color: var(--primary-color-light);
+    color: var(--primary-text-color);
+    height: 60px;
+    width: 100%;
+    visibility: hidden;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    display: inline;
+    margin: 40px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(212, 212, 212);
+}

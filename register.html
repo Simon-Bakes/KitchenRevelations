@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+</head>
+<body>
+    <main id="loginMain">
+        <div id="loginDiv">
+            <div id="loginHeader">
+                <h1>Register</h1>
+            </div>
+
+            <div id="loginForm">
+                <form action="login.php" method="post">
+                    <div id="loginUser">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required placeholder="johndoe">
+                    </div>
+                    <div id="loginPassword">
+                        <label for="password">Password:</label>
+                        <div style="position: relative; width: 100%;">
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+                            <span id="showPasswordLabel" onclick="showPassword()" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;">
+                                <span class="material-symbols-outlined">visibility_off</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div id="loginBtn">
+                        <button type="submit" id="login">Sign Up</button>
+                    </div>
+                    <div id="loginRegister">
+                        <p id="register" style="font-size: 0.8em;">Already have an account? <a href="login.html">Log in here!</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

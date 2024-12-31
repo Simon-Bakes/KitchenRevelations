@@ -1,0 +1,63 @@
+header {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    height: 90px;
+    display: flex;
+}
+
+/* Inner header elements */
+
+#leftDiv, #rightDiv {
+    width: 20%;
+    height: 100%;
+}
+
+#logoDiv, #menuDiv {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logoDiv {
+    justify-content: left;
+    white-space: nowrap;
+}
+
+#menuDiv {
+    justify-content: right;
+    margin-right: 10px;
+}
+
+/* Logo Icon */
+
+#logoIcon {
+    height: 80px;
+    border-radius: 0.3vmax;
+    margin-right: 10px;
+}
+
+#textIcon {
+    display: inline;
+}
+
+#logoSpan {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+#logoSpan:hover {
+    scale: 1.05;
+}
+
+/* Menu Icon */
+
+#menuIcon {
+    scale: 2;
+    cursor: pointer;
+}
+
+#menuIcon:hover {
+    scale: 2.5;   
+}
