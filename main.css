@@ -5,7 +5,8 @@
 @import url('./styles/index/animations.css');
 @import url('./styles/index/responsive.css');
 
-@import url('./styles/login/container.css');
+@import url('./styles/login/login.css');
+@import url('./styles/profile/profile.css');
 
 :root {
     --primary-color: #007bff;

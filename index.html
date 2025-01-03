@@ -15,7 +15,6 @@
                 <img src="images/logo.png" alt="Kitchen Revelations logo" id="logoIcon">
                 <h1 id="textIcon">Kitchen Revelations</h1>
             </span>
-            
         </div>
         <div id="menuDiv">
             <span class="material-icons" id="menuIcon">menu</span> 
@@ -24,23 +23,33 @@
     </header>
 
     <nav id="navBar">
-        <ul>
-            <li>Log In</li>
-            <li>Newsletters</li>
-            <li>Subscription</li>
-            <li>About Us</li>
-        </ul>
+        <div id="stickyNav">
+            <ul>
+                <li>Home</li>
+                <li>Recipes</li>
+                <li>Profile</li>
+                <li>About Us</li>
+            </ul>
+        </div>
     </nav>
 
-    <main>
+    <main id="mainIndex">
         <aside></aside>
-        <article>
-            <div class="recipeGrid">1</div>
-            <div class="recipeGrid">2</div>
-            <div class="recipeGrid">3</div>
-            <div class="recipeGrid">4</div>
-            <div class="recipeGrid">5</div>
-            <div class="recipeGrid">6</div>
+        <article id="mainBox">
+            <div id="animatedTopRecipes">
+                <img src="images/pizza.jpg" alt="Recipe 1" class="recipeImg">
+                <img src="images/pizza.jpg" alt="Recipe 1" class="recipeImg">
+                <img src="images/pizza.jpg" alt="Recipe 1" class="recipeImg">
+                <img src="images/pizza.jpg" alt="Recipe 1" class="recipeImg">
+            </div>
+            <div id="mainArticle">
+                <div class="recipeGrid">1</div>
+                <div class="recipeGrid">2</div>
+                <div class="recipeGrid">3</div>
+                <div class="recipeGrid">4</div>
+                <div class="recipeGrid">5</div>
+                <div class="recipeGrid">6</div>
+            </div>
         </article>
         <aside></aside>
     </main>
