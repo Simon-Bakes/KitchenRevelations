@@ -7,6 +7,7 @@
 
 @import url('./styles/login/login.css');
 @import url('./styles/profile/profile.css');
+@import url('./styles/payment/payment.css');
 
 :root {
     --primary-color: #007bff;
